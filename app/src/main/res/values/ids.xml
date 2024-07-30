@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="medicine" type="id"/>
+    <item name="diseaseName" type="id"/>
+    <item name="reminderDate" type="id"/>
+    <item name="reminderTime" type="id"/>
+</resources>

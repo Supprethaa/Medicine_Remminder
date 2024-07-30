@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="130dp"
+        android:layout_height="36dp"
+        android:text="@string/add_reminder"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <EditText
+        android:id="@+id/medicineName"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/enter_medicine_name"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <Spinner
+        android:id="@+id/diseaseSpinner"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicineName"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="253dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="@string/pick_a_date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diseaseSpinner"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="250dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="@string/schedule_a_time"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="109dp"
+        android:layout_height="45dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addButton"
+        app:layout_constraintVertical_bias="0.061" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

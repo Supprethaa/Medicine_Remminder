@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightBlue">#7fb7ea</color>
+    <color name="primaryColor">#4CAF50</color> <!-- Green -->
+    <color name="primaryDarkColor">#388E3C</color> <!-- Dark Green -->
+    <color name="primaryLightColor">#C8E6C9</color> <!-- Light Green -->
+    <color name="accentColor">#FF9800</color> <!-- Orange for accent -->
+    <color name="primaryTextColor">#FFFFFF</color> <!-- White text on primary -->
+    <color name="secondaryTextColor">#212121</color> <!-- Dark text for secondary -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Light grey background -->
+    <color name="errorColor">#D32F2F</color>
+</resources>
